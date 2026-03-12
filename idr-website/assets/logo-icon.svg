@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <g transform="translate(10, 10)">
+    <!-- Top Face (White/Light Layer) -->
+    <polygon points="50,10 85,30 50,50 15,30" fill="#FFFFFF" stroke="#000000" stroke-width="3" stroke-linejoin="round" />
+    <!-- Left Face (Orange Layer - Risk/Energy) -->
+    <polygon points="15,30 50,50 50,90 15,70" fill="#FF6A00" stroke="#000000" stroke-width="3" stroke-linejoin="round" />
+    <!-- Right Face (Black Layer - Structure) -->
+    <polygon points="85,30 50,50 50,90 85,70" fill="#000000" stroke="#000000" stroke-width="3" stroke-linejoin="round" />
+    
+    <!-- Inner geometric layers for complexity/dimension -->
+    <polyline points="50,50 50,70" stroke="#FFFFFF" stroke-width="2" />
+    <polyline points="15,50 50,70" stroke="#FFFFFF" stroke-width="2" opacity="0.5" />
+  </g>
+</svg>
